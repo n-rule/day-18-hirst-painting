@@ -1,4 +1,4 @@
-import colorgram
+#import colorgram
 
 # extract = colorgram.extract('image.jpg', 20)
 # colors = []
@@ -17,6 +17,7 @@ import turtle
 
 
 raf = turtle.Turtle()
+raf.hideturtle()
 raf.pensize(20)
 turtle.colormode(255)
 y = -200
